@@ -6,17 +6,18 @@ body {
 #container {
     height: 100%;
     background-color: rgb(224, 224, 224);
-    padding: 20px;
+    padding: 30px;
 }
 
 #post-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
     height: 50vh;
-    border: 20px solid black;
-
+    border: 20px solid rgb(82, 63, 0);
+    background: url(/LAYOUT/cork-board-texture-background-closeup_488220-32337.jpg);
+    background-size: cover;
 }
 
 section div {
@@ -24,11 +25,15 @@ section div {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Finger Paint', cursive;
     width: 200px;
     height: 150px;
     border: 1px solid black;
-    margin: 23px;
     box-shadow: 3px 2px 2px 1px rgb(78, 78, 78);
+}
+
+section div h2 {
+    font-size: 25px;
 }
 
 .postit1 {
@@ -82,5 +87,6 @@ section div {
     transform: rotate(0deg);
     width: 250px;
     height: 200px;
-    margin: 0;
+    z-index: 10;
+    cursor: pointer;
 }
