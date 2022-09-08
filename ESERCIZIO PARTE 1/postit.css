@@ -84,9 +84,7 @@ section div h2 {
 }
 
 #postit:hover {
-    transform: rotate(0deg);
-    width: 250px;
-    height: 200px;
+    transform: rotate(0deg) scale(1.2);
     z-index: 10;
     cursor: pointer;
 }
