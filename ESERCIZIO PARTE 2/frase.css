@@ -17,3 +17,15 @@
     margin-top: 40px;
     line-height: 1.5;
 }
+
+.parole {
+    position: relative;
+}
+
+.parole i {
+    position: absolute;
+    animation-name: action;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    transition: 0.3;
+}
